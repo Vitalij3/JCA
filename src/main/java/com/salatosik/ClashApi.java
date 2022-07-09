@@ -36,7 +36,7 @@ public class ClashApi {
     */
     public ClashApi(String apiToken) {
         this.API_KEY = apiToken;
-        this.HOST = "https://api.clashofclans.com/";
+        this.HOST = "https://api.clashofclans.com";
         this.API_VERSION = "v1";
     }
 
