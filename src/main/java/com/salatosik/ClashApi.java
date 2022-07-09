@@ -42,7 +42,8 @@ public class ClashApi {
 
    /**
     * @param apiToken - the copied Clash of Clans API from site
-    * @param apiHost - the api host* @param apiVersion - the api version
+    * @param apiHost - the api host
+    * @param apiVersion - the api version
     */
     @Deprecated
     public ClashApi(String apiToken, String apiHost, String apiVersion) {
@@ -75,7 +76,7 @@ public class ClashApi {
     }
 
     /**
-     * @param other - the other parameters for https request.}
+     * @param other - the other parameters for https request.
      * @return - request body
      */
     public String get(String other) {
