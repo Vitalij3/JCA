@@ -1,0 +1,10 @@
+package com.salatosik;
+
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        ClashApi clashApi = new ClashApi("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjJkZTdjNDE1LTQyM2QtNDg4Ny1iODVkLWY3YTE2ZGE0YjE4NSIsImlhdCI6MTY1NzMwMTU2NSwic3ViIjoiZGV2ZWxvcGVyLzIyMGZlNzZjLWIwY2QtODk3YS00YjdhLThkNTE2YWI0YThkMiIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjEwMC44Mi4yNi4xODAiLCIzNy4zMC40NC4yNSIsIjIxMy4xNTguMTk5LjEiLCIyMTMuMTU4LjE5OS41Il0sInR5cGUiOiJjbGllbnQifV19.8U5yit4HN4Bmk-fLLAvCEQ6sr_S5sOghlCtmtXRt4eGGdY8gdeT1uy-EKK_2z-klCLN6Ghc2pLS-FxcjM6vnVw");
+        System.out.println(clashApi.getClanInfo("#2Q0PCY28U").description);
+    }
+}
