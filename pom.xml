@@ -14,6 +14,32 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <name>Java Clash API</name>
+    <description>Provides an opportunity to use the API functionality of the Clash Of Clans game</description>
+    <url>https://github.com/Vitalij3/Java-Clash-API</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Vitalij Banseruk</name>
+            <email>banserukvitalij@gmail.com</email>
+            <organization>com.github.Vitalij3</organization>
+            <organizationUrl>https://github.com/Vitalij3/</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/Vitalij3/Java-Clash-API</connection>
+        <developerConnection>scm:git:ssh://github.com:Vitalij3/Java-Clash-API.git</developerConnection>
+        <url>https://github.com/Vitalij3/Java-Clash-API</url>
+    </scm>
+
     <build>
         <plugins>
             <plugin>

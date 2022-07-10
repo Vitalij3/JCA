@@ -8,20 +8,18 @@
 ```java
 package com.example;
 
-import com.salatosik.ClashApi;
-import com.salatosik.models.locations.Location;
-
-import java.util.Objects;
+import com.salatosik.JCA.ClashApi;
+import com.salatosik.JCA.models.locations.Location;
 
 public class Demo {
     public static void main(String[] args) {
-        
+
         // creating instance
         ClashApi clashApi = new ClashApi("token");
-        
+
         // getting locations list
         Location.Item location = clashApi.getLocations().get(1);
-        
+
         // getting player rankings list and writing in console
         clashApi.getRankingsPlayersVersus(location.id).forEach(player -> {
             System.out.println(player.name + " -> " + player.tag);
