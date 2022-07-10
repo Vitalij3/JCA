@@ -6,7 +6,7 @@
 
     <groupId>io.github.vitalij3</groupId>
     <artifactId>Java-Clash-API</artifactId>
-    <version>1.2.3</version>
+    <version>1.0.0</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
