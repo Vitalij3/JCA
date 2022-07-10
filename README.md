@@ -8,8 +8,8 @@
 ```java
 package com.example;
 
-import com.github.salatosik.JCA.ClashApi;
-import com.github.salatosik.JCA.models.locations.Location;
+import io.github.vitalij3.JCA.ClashApi;
+import io.github.vitalij3.JCA.models.locations.Location;
 
 public class Demo {
     public static void main(String[] args) {
