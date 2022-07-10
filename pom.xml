@@ -27,7 +27,7 @@
 
     <developers>
         <developer>
-            <name>Vitalij</name>
+            <name>Vitalij3</name>
             <email>banserukvitalii@gmail.com</email>
             <organization>com.github.Vitalij3</organization>
             <organizationUrl>https://github.com/Vitalij3/</organizationUrl>
@@ -105,9 +105,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>1.5</version>
-                <configuration>
-                    <skip>true</skip>
-                </configuration>
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
