@@ -22,7 +22,7 @@ import java.util.List;
  /**
   * General class for controlling all Clash Of Clans API functional
   * @author Vitalij
-  * @version 1.2.3
+  * @version 1.2.4
  */
 public class ClashApi {
     private final String API_KEY;
