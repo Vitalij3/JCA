@@ -21,8 +21,8 @@ import java.util.List;
 
  /**
   * General class for controlling all Clash Of Clans API functional
-  * @author Salatosik
-  * @version 1.0
+  * @author Vitalij
+  * @version 1.2.4
  */
 public class ClashApi {
     private final String API_KEY;
@@ -32,7 +32,7 @@ public class ClashApi {
     private final String HOST, API_VERSION;
 
    /**
-    * @param apiToken - the copied Clash of Clans API from site
+    * @param apiToken the copied Clash of Clans API from site
     */
     public ClashApi(String apiToken) {
         this.API_KEY = apiToken;
@@ -41,9 +41,9 @@ public class ClashApi {
     }
 
    /**
-    * @param apiToken - the copied Clash of Clans API from site
-    * @param apiHost - the api host
-    * @param apiVersion - the api version
+    * @param apiToken the copied Clash of Clans API from site
+    * @param apiHost the api host
+    * @param apiVersion the api version
     */
     @Deprecated
     public ClashApi(String apiToken, String apiHost, String apiVersion) {
@@ -76,8 +76,8 @@ public class ClashApi {
     }
 
     /**
-     * @param other - the other parameters for https request.
-     * @return - request body
+     * @param other the other parameters for https request.
+     * @return request body
      */
     public String get(String other) {
         Request request = new Request.Builder()
