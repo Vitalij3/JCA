@@ -3,6 +3,20 @@
 - create instance ClashApi
 - use all methods!
 
+## Downloads
+Maven:
+```xml
+<dependency>
+    <groupId>io.github.vitalij3</groupId>
+    <artifactId>Java-Clash-API</artifactId>
+    <version>1.2.3</version>
+</dependency>
+```
+Gradle:
+```groovy
+implementation 'io.github.vitalij3:Java-Clash-API:1.2.3'
+```
+
 ## Example code
 
 ```java
