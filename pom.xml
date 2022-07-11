@@ -16,7 +16,7 @@
 
     <name>Java Clash API</name>
     <description>Provides an opportunity to use the API functionality of the Clash Of Clans game</description>
-    <url>https://github.com/Vitalij3/Java-Clash-API</url>
+    <url>https://github.com/Vitalij3/JCA</url>
 
     <licenses>
         <license>
@@ -35,9 +35,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/Vitalij3/Java-Clash-API</connection>
-        <developerConnection>scm:git:ssh://github.com:Vitalij3/Java-Clash-API.git</developerConnection>
-        <url>https://github.com/Vitalij3/Java-Clash-API</url>
+        <connection>scm:git:git://github.com/Vitalij3/JCA</connection>
+        <developerConnection>scm:git:ssh://github.com:Vitalij3/JCA.git</developerConnection>
+        <url>https://github.com/Vitalij3/JCA</url>
     </scm>
 
     <distributionManagement>
