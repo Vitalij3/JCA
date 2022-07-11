@@ -9,12 +9,12 @@ Maven:
 <dependency>
     <groupId>io.github.vitalij3</groupId>
     <artifactId>Java-Clash-API</artifactId>
-    <version>1.2.3</version>
+    <version>1.2.4</version>
 </dependency>
 ```
 Gradle:
 ```groovy
-implementation 'io.github.vitalij3:Java-Clash-API:1.2.3'
+implementation 'io.github.vitalij3:Java-Clash-API:1.2.4'
 ```
 
 ## Example code
