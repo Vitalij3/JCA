@@ -24,10 +24,11 @@ implementation 'io.github.vitalij3:Java-Clash-API:VERSION'
 package com.example;
 
 import io.github.vitalij3.JCA.ClashApi;
+import io.github.vitalij3.JCA.exception.api.ClashOfClansApiException;
 import io.github.vitalij3.JCA.models.locations.Location;
 
 public class Demo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClashOfClansApiException {
 
         // creating instance
         ClashApi clashApi = new ClashApi("token");
