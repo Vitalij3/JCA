@@ -4,17 +4,19 @@
 - use all methods!
 
 ## Downloads
+Due to my lack of knowledge, my maven repository began to feel bad, and there are many versions hanging on it, which are difficult to call versions because nothing has changed in them. Starting with version 1.3.1 you can safely use my library. From all this I want to conclude that I will try not to create problems for myself and improve the quality of my development :)
+
 Maven:
 ```xml
 <dependency>
     <groupId>io.github.vitalij3</groupId>
     <artifactId>Java-Clash-API</artifactId>
-    <version>1.2.4</version>
+    <version>1.3.1</version>
 </dependency>
 ```
 Gradle:
 ```groovy
-implementation 'io.github.vitalij3:Java-Clash-API:1.2.4'
+implementation 'io.github.vitalij3:Java-Clash-API:1.3.1'
 ```
 
 ## Example code
