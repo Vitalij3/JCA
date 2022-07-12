@@ -1,3 +1,5 @@
+[maven-central]: https://img.shields.io/maven-central/v/io.github.vitalij3/Java-Clash-API?color=green
+
 ## How to use
 - add dependency to your project
 - create instance ClashApi
@@ -11,12 +13,12 @@ Maven:
 <dependency>
     <groupId>io.github.vitalij3</groupId>
     <artifactId>Java-Clash-API</artifactId>
-    <version>1.3.1</version>
+    <version>1.3.2</version>
 </dependency>
 ```
 Gradle:
 ```groovy
-implementation 'io.github.vitalij3:Java-Clash-API:1.3.1'
+implementation 'io.github.vitalij3:Java-Clash-API:1.3.2'
 ```
 
 ## Example code
@@ -37,9 +39,7 @@ public class Demo {
         Location.Item location = clashApi.getLocations().get(1);
 
         // getting player rankings list and writing in console
-        clashApi.getRankingsPlayersVersus(location.id).forEach(player -> {
-            System.out.println(player.name + " -> " + player.tag);
-        });
+        clashApi.getRankingsPlayersVersus(location.id).forEach(player -> System.out.println(player.name + " -> " + player.tag));
     }
 }
 ```
