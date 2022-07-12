@@ -1,4 +1,4 @@
-[maven-central]: https://img.shields.io/maven-central/v/io.github.vitalij3/Java-Clash-API?color=green
+[maven-central]: https://img.shields.io/maven-central/v/io.github.vitalij3/Java-Clash-API?color=blue
 
 ## How to use
 - add dependency to your project
