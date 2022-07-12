@@ -1,6 +1,6 @@
 package io.github.vitalij3.JCA.exception.api;
 
-public class ProvidedIncorrectParametersException extends Exception {
+public class ProvidedIncorrectParametersException extends ClashOfClansApiException {
     public ProvidedIncorrectParametersException() {
         super("Client provided incorrect parameters for the request.");
     }
