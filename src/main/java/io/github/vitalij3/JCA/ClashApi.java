@@ -35,14 +35,12 @@ public class ClashApi {
    /**
     * @param apiToken the copied Clash of Clans API from site
     */
-    public ClashApi(String apiToken, boolean verifyConnection) throws ClashOfClansApiException {
+    public ClashApi(String apiToken) throws ClashOfClansApiException {
         this.API_KEY = apiToken;
         this.HOST = "https://api.clashofclans.com";
         this.API_VERSION = "v1";
 
-        if(verifyConnection) {
-            if(!check()) throw new AccessDeniedException("Check result is not normal. Check the internet connection or the correctness of the api token.");
-        }
+        if(!check()) throw new AccessDeniedException("Check result is not normal. Check the internet connection or the correctness of the api token.");
     }
 
    /**
